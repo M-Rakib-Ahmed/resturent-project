@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="relative w-11/12 mx-auto h-[400px] md:h-[500px] flex items-center justify-center bg-cover bg-center rounded-xl shadow-lg"
+        <div className="relative w-11/12 mt-10 mx-auto h-[400px] md:h-[500px] flex items-center justify-center bg-cover bg-center rounded-xl shadow-lg"
             style={{ backgroundImage: "url('https://i.imgpost.net/2025/03/04/oQlg.png')" }}>
             
             <div className="absolute inset-0 bg-black/50 rounded-xl"></div>
