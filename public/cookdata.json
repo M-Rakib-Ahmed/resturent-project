@@ -1,0 +1,97 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Spicy Chicken Stir Fry",
+    "recipe_image": "https://i.imgpost.net/2025/03/03/oQPc.png",
+    "short_description": "A delicious and quick spicy chicken stir fry with vegetables.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom",
+      "2 cloves garlic",
+      "1 tbsp chili flakes"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Classic Margherita Pizza",
+    "recipe_image": "https://i.imgpost.net/2025/03/03/oQ93.png",
+    "short_description": "An Italian classic with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "500 g pizza dough",
+      "200 g mozzarella cheese",
+      "150 g tomato sauce",
+      "50 g fresh basil",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": "45 min",
+    "calories": "450 calories"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Creamy Mushroom Pasta",
+    "recipe_image": "https://i.imgpost.net/2025/03/03/oQPc.png",
+    "short_description": "A rich and creamy mushroom pasta for a perfect dinner.",
+    "ingredients": [
+      "300 g pasta",
+      "250 g mushrooms",
+      "200 ml heavy cream",
+      "50 g parmesan cheese",
+      "2 cloves garlic",
+      "1 tbsp butter"
+    ],
+    "preparing_time": "25 min",
+    "calories": "520 calories"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Grilled Salmon with Lemon Butter",
+    "recipe_image": "https://i.imgpost.net/2025/03/03/oQPc.png",
+    "short_description": "A healthy and flavorful grilled salmon with a lemon butter sauce.",
+    "ingredients": [
+      "400 g salmon fillet",
+      "2 tbsp butter",
+      "1 lemon (sliced)",
+      "1 tsp salt",
+      "1 tsp black pepper",
+      "2 cloves garlic (minced)"
+    ],
+    "preparing_time": "20 min",
+    "calories": "350 calories"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Vegetable Fried Rice",
+    "recipe_image": "https://i.imgpost.net/2025/03/03/oQPc.png",
+    "short_description": "A quick and tasty vegetable fried rice with soy sauce.",
+    "ingredients": [
+      "2 cups cooked rice",
+      "100 g carrots (diced)",
+      "100 g peas",
+      "100 g bell peppers",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil"
+    ],
+    "preparing_time": "15 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Brownie",
+    "recipe_image": "https://i.imgpost.net/2025/03/03/oQPc.png",
+    "short_description": "A rich and fudgy chocolate brownie for dessert lovers.",
+    "ingredients": [
+      "200 https://i.imgpost.net/2025/03/03/oQPc.pngg dark chocolate",
+      "100 g butter",
+      "150 g sugar",
+      "2 eggs",
+      "50 g flour",
+      "1 tsp vanilla extract"
+    ],
+    "preparing_time": "35 min",
+    "calories": "400 calories"
+  }
+]
