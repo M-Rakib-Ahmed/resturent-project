@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { TfiTimer } from "react-icons/tfi";
 import { BsFire } from "react-icons/bs";
-const Recipes = () => {
+import { ToastContainer } from "react-toastify";
+// eslint-disable-next-line no-unused-vars
+const Recipes = ({ addRecipeToQueue }) => {
     const [recipes, setRecipes]=useState([]);
     useEffect(()=>{
         fetch('/cookdata.json')
@@ -14,7 +16,7 @@ const Recipes = () => {
         <div className="md:w-2/3">
            <div className="grid grid-cols-1 gap-7 mb-10 lg:grid-cols-2 ">
             {
-                recipes.map(recipe => <div className="card bg-base-100  shadow-xl ">
+                recipes.map(recipe => <div className="card bg-base-100  border-2 text-gray-300 ">
                     <figure>
                         <img  className="w-full p-7 "
                             src={recipe.recipe_image} />
@@ -43,7 +45,8 @@ const Recipes = () => {
 
                         </div>
                         <div className="card-actions ">
-                            <button className="btn btn-primary capitalize rounded-full">want to cook</button>
+                            <button onClick={() => addRecipeToQueue(recipe)} className="btn btn-primary capitalize rounded-full">want to cook</button>
+                            <ToastContainer></ToastContainer>
                         </div>
                     </div>
                 </div>)
